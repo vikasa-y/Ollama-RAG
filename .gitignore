@@ -1,3 +1,13 @@
 .venv/
-Documents/Git_Handbook_Cleaned.pdf
-Documents/Git_Handbook_Edited.pdf
+__pycache__/
+*.pyc
+
+# Documents / source data
+Documents/
+*.pdf
+
+# Generated RAG data
+data/
+
+# Environment / secrets
+.env
